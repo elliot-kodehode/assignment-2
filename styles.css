@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  max-width: 90vw;
+  min-height: fit-content;
+  max-height: 100vh;
+}
+
+#sedans,
+#suvs,
+#luxury {
+  background-color: yellow;
+  min-width: 307px;
+  padding: 47px;
+}
