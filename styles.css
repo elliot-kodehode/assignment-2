@@ -8,22 +8,41 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
   height: 100vh;
 }
 
 div {
   display: flex;
-  width: fit-content;
+  width: 70vw;
   height: fit-content;
-  max-width: 90vw;
+  max-width: 98vw;
   min-height: fit-content;
   max-height: 100vh;
 }
 
-#sedans,
-#suvs,
-#luxury {
+.card {
+  display: flex;
+  flex-direction: column;
   background-color: yellow;
   min-width: 307px;
+  width: 307px;
   padding: 47px;
+  align-items: space-evenly;
+  justify-content: space-around;
+  height: 498px;
+}
+
+button {
+  margin-top: 12vh;
+  height: auto;
+  width: fit-content;
+  background-color: white;
+  padding: 12px 22px;
+  border-radius: 22px;
+  border: none;
+}
+
+img {
+  width: 63px;
 }
