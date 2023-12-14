@@ -19,12 +19,13 @@ div {
   max-width: 98vw;
   min-height: fit-content;
   max-height: 100vh;
+  border-radius: 1%/2%;
+  overflow: hidden;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  background-color: yellow;
   min-width: 307px;
   width: 307px;
   padding: 47px;
@@ -33,16 +34,45 @@ div {
   height: 498px;
 }
 
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+#sedans button {
+  color: hsl(31, 77%, 52%);
+}
+#suvs button {
+  color: hsl(184, 100%, 22%);
+}
+#luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
 button {
   margin-top: 12vh;
   height: auto;
   width: fit-content;
-  background-color: white;
+  background-color: hsl(0, 0%, 95%);
   padding: 12px 22px;
   border-radius: 22px;
   border: none;
+  box-shadow: 1px 1px grey;
 }
 
 img {
   width: 63px;
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: ;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
 }
